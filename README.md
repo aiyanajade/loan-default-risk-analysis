@@ -31,6 +31,7 @@ The VP of Risk has asked your team to analyze the existing loan book and borrowe
     - DTI vs. default scatter plot
     - Loan purposes vs default comparison
     - Comparing loan counts based on loan purpose, default and non-default loans unstacked
+    - Correlation Heatmap of Numerical Variables Contributing to Default Risk
 5. **Additional Analysis**
     - Examined relationship between employment duration and default rates
     - Compared average loan amounts across default vs non-default categories
@@ -42,10 +43,12 @@ The VP of Risk has asked your team to analyze the existing loan book and borrowe
 - Overall default rate: **24.29% (n = 601)**
 - Borrowers with credit scores **300-599 show the highest default rate of 49.14%**
 - This indicates a sharp risk concentration in low credit segments.
+<img src="images/credit_score_range_vs_default_rate.png" width="600"/>
 
 ### 2. DTI Ratio shows a clear risk threshold
 - Default rates increase significantly beyond **45% DTI**
 - 45% is a critical underwriting cutoff
+<img src="images/DTI_ratio_range_vs_default_rate.png" width="600"/>
 
 ### 3. Loan Purpose influences risk patterns
 - Highest defaults observed in:
@@ -57,6 +60,8 @@ The VP of Risk has asked your team to analyze the existing loan book and borrowe
   - Higher loan amounts are associated with increased defaults in education, medical, and debt consolidation categories
   - Lower loan amounts show higher defaults in discretionary categories such as major purchases, business loans, and home improvement
   - This suggests that both **loan purpose and loan size interact to influence default risk**, rather than acting independently.
+  
+  <img src="images/loan_purpose_vs_default_rate.png" width="600"/>
 
 ### 4. Employment factors show weaker predictive power
 - Minimal variation across employment types
@@ -66,7 +71,13 @@ The VP of Risk has asked your team to analyze the existing loan book and borrowe
 ### 5. Higher interest rates show a strong positive correlation with default risk
 - This likely reflects underlying borrower risk already being priced into loan terms
 
-### 6. Overall, default risk appears to be driven by a combination of borrower creditworthiness (credit score, DTI) and loan structuring factors (loan purpose, loan size, interest rate), indicating that a multi-factor risk assessment approach is essential.
+### 6. Correlation Heatmap
+- Credit score shows a negative correlation with default (-0.29)
+- Interest rate shows a positive correlation with default (0.20)
+- DTI ratio has a weaker but noticeable positive relationship (0.19)
+- - Overall, default risk appears to be driven by a combination of borrower creditworthiness (credit score, DTI) and loan structuring factors (loan purpose, loan size, interest rate), indicating that a multi-factor risk assessment approach is essential.
+
+<img src="images/correlation_heatmap.png" width="450"/>
 
 ## Recommendations
 
