@@ -5,7 +5,7 @@ This project analyzes borrower profiles and loan application data to identify ke
 
 
 
-## About:
+## About
 
 Horizon Financial Group has issued over 600 personal loans across 2024 and 2025. The company has noticed that roughly 1 in 4 loans are defaulting, which is well above their target of 12%. 
 
@@ -23,7 +23,7 @@ To run this notebook:
 
 Note: The notebook includes all outputs and visualizations, so it can be reviewed without re-running the code.
 
-## Workflow:
+## Workflow
 
 1. **Data Preparation**
     - Loaded and explored both datasets
