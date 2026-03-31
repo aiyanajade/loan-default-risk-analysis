@@ -11,6 +11,17 @@ Horizon Financial Group has issued over 600 personal loans across 2024 and 2025.
 
 The VP of Risk has asked your team to analyze the existing loan book and borrower data to answer key questions about what is driving defaults. Your analysis will directly inform changes to their credit scoring model and loan approval thresholds. 
 
+## How to Run
+
+This notebook was developed in Google Colab using Google Drive paths.
+
+To run this notebook:
+
+1. Upload the dataset files from the `data/` folder into your environment
+2. Update file paths in the notebook to match your setup
+3. Remove or skip the Google Drive mounting cells if not needed
+
+Note: The notebook includes all outputs and visualizations, so it can be reviewed without re-running the code.
 
 ## Workflow:
 
