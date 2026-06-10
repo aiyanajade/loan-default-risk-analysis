@@ -9,7 +9,7 @@ This project analyzes borrower profiles and loan application data to identify ke
 
 Horizon Financial Group has issued over 600 personal loans across 2024 and 2025. The company has noticed that roughly 1 in 4 loans are defaulting, which is well above their target of 12%. 
 
-The VP of Risk has asked your team to analyze the existing loan book and borrower data to answer key questions about what is driving defaults. Your analysis will directly inform changes to their credit scoring model and loan approval thresholds. 
+Analysis of existing loan book and borrower data to answer key questions about what is driving defaults. The analysis will directly inform changes to credit scoring model and loan approval thresholds.
 
 ## How to Run
 
